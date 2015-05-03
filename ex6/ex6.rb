@@ -3,6 +3,7 @@ types_of_people = 10
 
 #string interpolation of types_of_people, which will be saved in x
 x = "There are #{types_of_people} types of people."
+#1. string in another string
 
 #definition of binary and do_not
 binary = "binary"
@@ -10,6 +11,7 @@ do_not = "don't"
 
 #string interpolation of binary and do_not, which willl be saved in y
 y = "Those who know #{binary} and those who #{do_not}."
+#2. and 3. string in another string
 
 #printing the strings x and y
 puts x
@@ -18,6 +20,7 @@ puts y
 #printing the strings x and y as string interpolation
 puts "I said: #{x}."
 puts "I also said: '#{y}'."
+#4. and 5. string in another string
 
 #definition of hilarious with boolean
 hilarious = false
@@ -34,3 +37,5 @@ e = "a string with a right side."
 
 #sticking the two strings together and printing them
 puts w + e
+
+#There are 5 strings in another string!
