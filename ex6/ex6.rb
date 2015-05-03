@@ -44,3 +44,4 @@ f = 5
 puts w + 5.to_s + e
 
 #If equal you can stick objects together with +
+# If all "" get changed into ', a syntax error occures.
