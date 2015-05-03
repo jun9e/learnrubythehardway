@@ -15,3 +15,23 @@ puts "His teeth are usually #{teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
+
+#convert inces to centimenters // centimeters = inches * 2.54
+
+def to_cm (inch_value)
+	inch_value * 2.54
+end
+
+puts "Zeds heigth in centimeters"
+puts to_cm(height)
+
+#convert pounds to kilogramm // kilogram = pounds * 0.45
+
+def to_kilo (pound_value)
+	pound_value * 0.45
+end
+
+puts "Zeds weight in kilogramm"
+puts to_kilo(weight)
+
+#Question: What is a good divider inside of comments?
