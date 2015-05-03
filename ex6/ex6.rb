@@ -39,3 +39,8 @@ e = "a string with a right side."
 puts w + e
 
 #There are 5 strings in another string!
+
+f = 5
+puts w + 5.to_s + e
+
+#If equal you can stick objects together with +
