@@ -26,3 +26,15 @@ puts "How about some more."
 puts "Is it greater? #{5 > -2}"
 puts "Is it greater or equal? #{5 >= -2}"
 puts "Is it less or equal? #{5 <= -2}"
+
+#use ruby as a calculator
+puts "7 + 7"
+puts 7 + 7
+puts "7 * 7"
+puts 7 * 7
+puts "7 - 7"
+puts 7 - 7
+puts "7 / 7"
+puts 7 / 7
+puts "7 % 7"
+puts 7 % 7
