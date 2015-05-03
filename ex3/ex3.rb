@@ -37,4 +37,4 @@ puts 7 - 7
 puts "7 / 7"
 puts 7 / 7
 puts "7 % 7"
-puts 7 % 7
+puts (7 % 7).to_f
