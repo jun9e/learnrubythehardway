@@ -28,5 +28,9 @@ end12 = "r"
 #printing the letters in one line
 print end1 + end2 + end3 + end4 + end5 + end6
 
-#printing one letter each line
+#printing the letters behind end1 to end6 and adding a new line behind
+puts end7 + end8 + end9 + end10 + end11 + end12
+
+#testing puts
+puts end1 + end2 + end3 + end4 + end5 + end6
 puts end7 + end8 + end9 + end10 + end11 + end12
