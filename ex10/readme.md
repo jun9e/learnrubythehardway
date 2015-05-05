@@ -24,7 +24,7 @@ puts fat_cat
 0. Use ''' (triple-single-quote) instead. Can you see why you might use that instead of """?
 0. Combine escape sequences and format strings to create a more complex format.
 
-#Escape 	What it does.
+#Memorize
 * \\ 	Backslash ()
 * \' 	Single-quote (')
 * \" 	Double-quote (")
