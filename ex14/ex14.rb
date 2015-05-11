@@ -1,7 +1,7 @@
-user_name = ARGV.first
+user_name, friend_name = ARGV
 monkey = ":) "
 
-puts "Hi #{user_name}."
+puts "Hi #{user_name} and #{friend_name}."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user_name}? ", monkey
 likes = $stdin.gets.chomp
