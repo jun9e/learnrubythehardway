@@ -1,5 +1,5 @@
 user_name = ARGV.first
-monkey = '> '
+monkey = ":) "
 
 puts "Hi #{user_name}."
 puts "I'd like to ask you a few questions."
