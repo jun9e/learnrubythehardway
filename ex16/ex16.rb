@@ -31,5 +31,14 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
+#Question: How to do task 3
+#There's too much repetition in this file. Use strings, formats, and escapes to print out line1, line2, and line3 with just one target.write() command instead of six.
+formatter = "%{first} %{second} %{third}"
+puts formatter % {
+  first: "#{line1}\n",
+  second: "#{line2}}\n",
+  third: "#{line3}}\n",
+}
+
 puts "And finally, we close it."
 target.close
