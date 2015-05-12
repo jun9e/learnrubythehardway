@@ -16,4 +16,4 @@ puts "A smaller number is #{smaller}."
 print "Give me some money: "
 money = gets.chomp.to_f
 change = money * 0.1
-puts "Here is your change: $#{change}"
+puts "Here is your change: $#{sprintf('%.2f', change)}"
