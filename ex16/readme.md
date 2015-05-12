@@ -45,3 +45,11 @@ target.close
 0. There's too much repetition in this file. Use strings, formats, and escapes to print out line1, line2, and line3 with just one target.write() command instead of six.
 0. Find out why we had to pass a 'w' as an extra parameter to open. Hint: open tries to be safe by making you explicitly say you want to write a file.
 0. If you open the file with 'w' mode, then do you really need the target.truncate()? Read the documentation for Ruby's open function and see if that's true.
+
+#Memorize
+
+* close -- Closes the file. Like File->Save.. in your editor.
+* read -- Reads the contents of the file. You can assign the result to a variable.
+* readline -- Reads just one line of a text file.
+* truncate -- Empties the file. Watch out if you care about the file.
+* write('stuff') -- Writes "stuff" to the file.
